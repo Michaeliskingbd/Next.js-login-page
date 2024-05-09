@@ -211,42 +211,4 @@ body {
 }
 
 
-/* styles/globals.css */
 
-/* Add a media query for screens smaller than 768px */
-@media screen and (max-width: 768px) {
-  .container {
-      width: 100%;
-      border-radius: 0;
-      box-shadow: none;
-  }
-
-  .container form {
-      padding: 0 20px;
-  }
-
-  .form-container {
-      position: static;
-      height: auto;
-      transition: none;
-  }
-
-  .sign-in, .sign-up {
-      width: 100%;
-      left: 0;
-  }
-
-  .toggle-container {
-      left: 0;
-      width: 100%;
-      border-radius: 0;
-  }
-
-  .container.active .toggle-container {
-      transform: translateX(0);
-  }
-
-  .toggle {
-      background: linear-gradient(to right, #5566c5, #1AA7EC);
-  }
-}
